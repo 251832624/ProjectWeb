@@ -44,19 +44,7 @@ namespace ProjectWeb.Web.Controllers
             return View();
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
     }
 }
