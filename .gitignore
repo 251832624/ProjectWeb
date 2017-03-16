@@ -17,6 +17,8 @@ PublicUpFiles/
 *.scc
 *.vspscc
 
+ProjectWeb.Web/ProjectWeb.Web.csproj
+
 /ProjectWeb.Web/bin
 /ProjectWeb.Web/obj
 
@@ -35,7 +37,7 @@ PublicUpFiles/
 /ProjectWeb.Common/bin
 /ProjectWeb.Common/obj
 
-/ProjectWeb.Models/bin
+ProjectWeb.Models/bin
 /ProjectWeb.Models/obj
 
 
