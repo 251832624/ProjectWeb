@@ -17,8 +17,8 @@ PublicUpFiles/
 *.scc
 *.vspscc
 
-ProjectWeb.Web/bin
-ProjectWeb.Web/obj
+/ProjectWeb.Web/bin
+/ProjectWeb.Web/obj
 
 /ProjectWeb.DAL/bin
 /ProjectWeb.DAL/obj
