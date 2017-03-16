@@ -17,6 +17,8 @@ PublicUpFiles/
 *.scc
 *.vspscc
 
+*.cache //忽略以.cache 结尾的文件
+
 ProjectWeb.Web/ProjectWeb.Web.csproj
 
 
