@@ -19,12 +19,12 @@ PublicUpFiles/
 
 *.cache //忽略以.cache 结尾的文件
 
-ProjectWeb.Web/ProjectWeb.Web.csproj
+/ProjectWeb.Web/ProjectWeb.Web.csproj
 
 
-ProjectWeb.Web/bin/Debug
-ProjectWeb.Web/bin/Debug/
-ProjectWeb.Web/bin/Debug/*
+/ProjectWeb.Web/bin/Debug
+/ProjectWeb.Web/bin/Debug/
+/ProjectWeb.Web/bin/Debug/*
 
 /ProjectWeb.Web/obj/Debug
 /ProjectWeb.Web/obj/Debug/
@@ -72,9 +72,9 @@ ProjectWeb.Web/bin/Debug/*
 /ProjectWeb.Common/obj/Debug/
 /ProjectWeb.Common/obj/Debug/*
 
-ProjectWeb.Models/bin/Debug
-ProjectWeb.Models/bin/Debug/
-ProjectWeb.Models/bin/Debug/*
+/ProjectWeb.Models/bin/Debug
+/ProjectWeb.Models/bin/Debug/
+/ProjectWeb.Models/bin/Debug/*
 
 /ProjectWeb.Models/obj/Debug
 /ProjectWeb.Models/obj/Debug/
