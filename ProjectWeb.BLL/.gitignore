@@ -6,9 +6,13 @@
 /.vs
 
 obj/
+obj/Debug
+obj/Debug/
 
-Bin/
+
 bin/
+bin/Debug
+bin/Debug/
 
 
 
