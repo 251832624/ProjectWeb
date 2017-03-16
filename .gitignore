@@ -19,40 +19,27 @@ PublicUpFiles/
 
 ProjectWeb.Web/ProjectWeb.Web.csproj
 
-/ProjectWeb.Web/bin
-/ProjectWeb.Web/obj
+/ProjectWeb.Web/bin/
+/ProjectWeb.Web/obj/
 
-/ProjectWeb.DAL/bin
-/ProjectWeb.DAL/obj
+/ProjectWeb.DAL/bin/
+/ProjectWeb.DAL/obj/
 
-/ProjectWeb.IDAL/bin
-/ProjectWeb.IDAL/obj
+/ProjectWeb.IDAL/bin/
+/ProjectWeb.IDAL/obj/
 
-/ProjectWeb.BLL/bin
-/ProjectWeb.BLL/obj
+/ProjectWeb.BLL/bin/
+/ProjectWeb.BLL/obj/
 
-/ProjectWeb.IBLL/bin
-/ProjectWeb.IBLL/obj
+/ProjectWeb.IBLL/bin/
+/ProjectWeb.IBLL/obj/
 
-/ProjectWeb.Common/bin
-/ProjectWeb.Common/obj
+/ProjectWeb.Common/bin/
+/ProjectWeb.Common/obj/
 
-ProjectWeb.Models/bin
-/ProjectWeb.Models/obj
+ProjectWeb.Models/bin/
+/ProjectWeb.Models/obj/
 
 
 
-/PBoxWeb/assets/module
-/PBoxWeb/assets/HzjQuery/dist/
-/PBoxWeb/log/
-/PBoxWeb/cache/
-/PBoxWeb/PBoxWeb.csproj
 
-/PBoxWeb/Views/File
-/PBoxWeb/Views/Msg
-/PBoxWeb/Views/OA
-/PBoxWeb/Views/SE
-/PBoxWeb/Views/WF
-/PBoxWeb/Views/SYS
-/PBoxWeb/Views/Proj
-/PBoxWeb/Temp/20161229
