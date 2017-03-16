@@ -22,9 +22,9 @@ PublicUpFiles/
 ProjectWeb.Web/ProjectWeb.Web.csproj
 
 
-/ProjectWeb.Web/bin
-/ProjectWeb.Web/bin/
-/ProjectWeb.Web/bin/*
+ProjectWeb.Web/bin
+ProjectWeb.Web/bin/
+ProjectWeb.Web/bin/*
 
 /ProjectWeb.Web/obj
 /ProjectWeb.Web/obj/
