@@ -1,7 +1,0 @@
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\bin\Debug\ProjectWeb.IBLL.dll
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\bin\Debug\ProjectWeb.IBLL.pdb
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\obj\Debug\ProjectWeb.IBLL.dll
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\obj\Debug\ProjectWeb.IBLL.pdb
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\bin\Debug\ProjectWeb.Models.dll
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\bin\Debug\ProjectWeb.Models.pdb
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IBLL\obj\Debug\ProjectWeb.IBLL.csprojResolveAssemblyReference.cache
