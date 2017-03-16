@@ -22,63 +22,63 @@ PublicUpFiles/
 ProjectWeb.Web/ProjectWeb.Web.csproj
 
 
-ProjectWeb.Web/bin
-ProjectWeb.Web/bin/
-ProjectWeb.Web/bin/*
+ProjectWeb.Web/bin/Debug
+ProjectWeb.Web/bin/Debug/
+ProjectWeb.Web/bin/Debug/*
 
-/ProjectWeb.Web/obj
-/ProjectWeb.Web/obj/
-/ProjectWeb.Web/obj/*
+/ProjectWeb.Web/obj/Debug
+/ProjectWeb.Web/obj/Debug/
+/ProjectWeb.Web/obj/Debug/*
 
-/ProjectWeb.DAL/bin
-/ProjectWeb.DAL/bin/
-/ProjectWeb.DAL/bin/*
+/ProjectWeb.DAL/bin/Debug
+/ProjectWeb.DAL/bin/Debug/
+/ProjectWeb.DAL/bin/Debug/*
 
-/ProjectWeb.DAL/obj
-/ProjectWeb.DAL/obj/
-/ProjectWeb.DAL/obj/*
+/ProjectWeb.DAL/obj/Debug
+/ProjectWeb.DAL/obj/Debug/
+/ProjectWeb.DAL/obj/Debug/*
 
-/ProjectWeb.IDAL/bin
-/ProjectWeb.IDAL/bin/
-/ProjectWeb.IDAL/bin/*
+/ProjectWeb.IDAL/bin/Debug
+/ProjectWeb.IDAL/bin/Debug/
+/ProjectWeb.IDAL/bin/Debug/*
 
-/ProjectWeb.IDAL/obj
-/ProjectWeb.IDAL/obj/
-/ProjectWeb.IDAL/obj/*
+/ProjectWeb.IDAL/obj/Debug
+/ProjectWeb.IDAL/obj/Debug/
+/ProjectWeb.IDAL/obj/Debug/*
 
-/ProjectWeb.BLL/bin
-/ProjectWeb.BLL/bin/
-/ProjectWeb.BLL/bin/*
-
-
-/ProjectWeb.BLL/obj
-/ProjectWeb.BLL/obj/
-/ProjectWeb.BLL/obj/*
+/ProjectWeb.BLL/bin/Debug
+/ProjectWeb.BLL/bin/Debug/
+/ProjectWeb.BLL/bin/Debug/*
 
 
-/ProjectWeb.IBLL/bin
-/ProjectWeb.IBLL/bin/
-/ProjectWeb.IBLL/bin/*
+/ProjectWeb.BLL/obj/Debug
+/ProjectWeb.BLL/obj/Debug/
+/ProjectWeb.BLL/obj/Debug/*
 
-/ProjectWeb.IBLL/obj
-/ProjectWeb.IBLL/obj/
-/ProjectWeb.IBLL/obj/*
 
-/ProjectWeb.Common/bin
-/ProjectWeb.Common/bin/
-/ProjectWeb.Common/bin/*
+/ProjectWeb.IBLL/bin/Debug
+/ProjectWeb.IBLL/bin/Debug/
+/ProjectWeb.IBLL/bin/Debug/*
 
-/ProjectWeb.Common/obj
-/ProjectWeb.Common/obj/
-/ProjectWeb.Common/obj/*
+/ProjectWeb.IBLL/obj/Debug
+/ProjectWeb.IBLL/obj/Debug/
+/ProjectWeb.IBLL/obj/Debug/*
 
-ProjectWeb.Models/bin
-ProjectWeb.Models/bin/
-ProjectWeb.Models/bin/*
+/ProjectWeb.Common/bin/Debug
+/ProjectWeb.Common/bin/Debug/
+/ProjectWeb.Common/bin/Debug/*
 
-/ProjectWeb.Models/obj
-/ProjectWeb.Models/obj/
-/ProjectWeb.Models/obj/*
+/ProjectWeb.Common/obj/Debug
+/ProjectWeb.Common/obj/Debug/
+/ProjectWeb.Common/obj/Debug/*
+
+ProjectWeb.Models/bin/Debug
+ProjectWeb.Models/bin/Debug/
+ProjectWeb.Models/bin/Debug/*
+
+/ProjectWeb.Models/obj/Debug
+/ProjectWeb.Models/obj/Debug/
+/ProjectWeb.Models/obj/Debug/*
 
 
 
