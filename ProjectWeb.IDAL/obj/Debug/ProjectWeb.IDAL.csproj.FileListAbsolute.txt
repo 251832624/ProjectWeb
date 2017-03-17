@@ -1,4 +1,0 @@
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IDAL\bin\Debug\ProjectWeb.IDAL.dll
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IDAL\bin\Debug\ProjectWeb.IDAL.pdb
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IDAL\obj\Debug\ProjectWeb.IDAL.dll
-F:\MyProject-Test\MVC项目\ProjectWeb.Web\ProjectWeb.IDAL\obj\Debug\ProjectWeb.IDAL.pdb
