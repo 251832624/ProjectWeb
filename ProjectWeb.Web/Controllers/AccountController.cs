@@ -9,9 +9,11 @@ namespace ProjectWeb.Web.Controllers
     public class AccountController : Controller
     {
         // GET: Account
+        [HttpGet]
         public ActionResult Index()
         {
-            return View();
+            return View("~/Theme/Default/Index.cshtml");
+            //return View();
         }
 
         public ActionResult Action()
