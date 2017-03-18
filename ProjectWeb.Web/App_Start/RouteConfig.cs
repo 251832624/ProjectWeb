@@ -13,6 +13,16 @@ namespace ProjectWeb.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+
+
+            routes.MapRoute(
+                name: "form_page",
+                url: "p/{url}/{id}",
+                defaults: new { controller = "FormApi", action = "Page", id = UrlParameter.Optional }
+            );
+
+
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

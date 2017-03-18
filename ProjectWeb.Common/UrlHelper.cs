@@ -13,6 +13,7 @@ namespace ProjectWeb.Common
     {
         private static string currVirtualPath = HttpRuntime.AppDomainAppVirtualPath.ToLower().Replace("/standard", "");
         private static string AssetHost = "";
+
         private static string projectVirtualPath
         {
             get
@@ -27,8 +28,7 @@ namespace ProjectWeb.Common
                 }
             }
         }
-
-
+        
 
         /// <summary>
         /// 读取父项目样式图片
