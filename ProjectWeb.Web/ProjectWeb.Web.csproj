@@ -222,6 +222,8 @@
     <Content Include="Scripts\adminLTE\bootstrap\js\bootstrap.js" />
     <Content Include="Scripts\adminLTE\bootstrap\js\bootstrap.min.js" />
     <Content Include="Scripts\adminLTE\bootstrap\js\npm.js" />
+    <Content Include="Scripts\adminLTE\ajax\libs\font-awesome\4.5.0\css\font-awesome.min.css" />
+    <Content Include="Scripts\adminLTE\ajax\libs\ionicons\2.0.1\css\ionicons.min.css" />
     <Content Include="Scripts\adminLTE\dist\css\AdminLTE.css" />
     <Content Include="Scripts\adminLTE\dist\css\AdminLTE.min.css" />
     <Content Include="Scripts\adminLTE\dist\css\alt\AdminLTE-bootstrap-social.css" />
