@@ -46,7 +46,19 @@ namespace ProjectWeb.Web.Controllers
             return View();
         }
 
-        
+
+
+
+
+        public ActionResult Default()
+        {
+            return View("~/Theme/Default/Register.cshtml");
+            //return View();
+        }
+
+
+
+
 
     }
 }

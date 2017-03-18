@@ -12,9 +12,9 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+
     <!-- Bootstrap 3.3.6 -->
     <link rel="stylesheet" href="~/Scripts/adminLTE/bootstrap/css/bootstrap.min.css">
-
     <!-- Font Awesome -->
     @*<link rel="stylesheet" href="~/Scripts/adminLTE/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">*@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -370,9 +370,9 @@
         </aside>
 
 
-        <!-- Content Wrapper. Contains page content -->
+        <!-- 中间区域 -->
         <div class="content-wrapper">
-            中间页面
+            <iframe id="MainIframe" style="background:#fff;" name="MainIframe" border="0" bgcolor="#fff" marginwidth="0" marginheight="0" frameborder="no" width="100%" scrolling="yes" height="100%" src="~/account/Default"></iframe>
         </div>
         <!-- /.content-wrapper -->
 
@@ -398,6 +398,9 @@
     <!-- AdminLTE App -->
     <script src="~/Scripts/adminLTE/dist/js/app.min.js"></script>
 
+
+    <!-- 主题下的样式 -->
+    <script src="~/Theme/Default/JS/Index.js"></script>
    
     
 </body>

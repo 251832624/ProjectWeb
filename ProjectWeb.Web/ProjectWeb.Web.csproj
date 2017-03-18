@@ -1224,6 +1224,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Theme\Default\JS\Index.js" />
     <Content Include="Views\Portals\A\Index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -1250,6 +1251,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Public\" />
+    <Folder Include="Theme\Default\Css\" />
+    <Folder Include="Theme\Default\Images\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
