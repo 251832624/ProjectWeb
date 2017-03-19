@@ -5,17 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 
 using System.Data.Entity;
+using ProjectWeb.Models;
+using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace ProjectWeb.DAL
 {
     public class ProjectWebDbContext : DbContext
     {
-        //public DbSet<User> Users { get; set; }
-        //public DbSet<UserGroup> UserGroups { get; set; }
-        //public DbSet<UserConfig> UserConfig { get; set; }
-        //public NineskyDbContext(): base("DefaultConnection")
-        //{
-        //}
+        public DbSet<SysUser> SysUsers { get; set; }
+        public DbSet<SysRole> SysRoles { get; set; }
+        public DbSet<SysUserRole> SysUserRoles { get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            //base.OnModelCreating(modelBuilder);
+        }
 
     }
 }

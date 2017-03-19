@@ -12,8 +12,8 @@ namespace ProjectWeb.Web.Controllers
         //[HttpGet]
         public ActionResult Index()
         {
-            return View("~/Theme/Default/Index.cshtml");
-            //return View();
+            //return View("~/Theme/Default/Index.cshtml");
+            return View();
         }
 
         public ActionResult Action()
@@ -37,7 +37,10 @@ namespace ProjectWeb.Web.Controllers
             string LoginPwd = fc["LoginPwd"];
 
             ViewBag.LoginState = LoginName + "登录后。。。";
-            return View();
+
+            return this.Json(new { rdata = "~/home", success = true });
+            //return View("~/Views/Account/Index.cshtml");
+            //return View("~/Views/Account/Index.cshtml");
         }
 
         
