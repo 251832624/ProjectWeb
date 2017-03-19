@@ -2279,6 +2279,7 @@
     <Content Include="assets\lib\adminLTE\plugins\datatables\extensions\TableTools\Readme.md" />
     <Content Include="assets\lib\adminLTE\plugins\input-mask\phone-codes\phone-be.json" />
     <Content Include="assets\lib\adminLTE\plugins\input-mask\phone-codes\phone-codes.json" />
+    <Content Include="Config\ConnectionStrings.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
