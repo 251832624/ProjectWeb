@@ -13,6 +13,18 @@ namespace ProjectWeb.Web.Controllers
     public class FormController : Controller
     {
 
+
+
+        /// <summary>
+        /// 页面跳转 默认列表页面
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult DefaultPage()
+        {
+            return View();
+        }
+
+
         /// <summary>
         /// 页面跳转 方法
         /// </summary>

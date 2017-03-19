@@ -11,6 +11,10 @@ obj/
 Bin/
 bin/
 
+Config/
+
+/Config
+
 node_modules/
 PublicUpFiles/
 
