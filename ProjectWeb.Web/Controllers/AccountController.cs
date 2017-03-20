@@ -4,10 +4,12 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+
 namespace ProjectWeb.Web.Controllers
 {
     public class AccountController : Controller
     {
+
         // GET: Account
         //[HttpGet]
         public ActionResult Index()

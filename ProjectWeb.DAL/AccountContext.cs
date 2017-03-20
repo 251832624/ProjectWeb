@@ -10,9 +10,9 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace ProjectWeb.DAL
 {
-    public class ProjectWebDbContext : DbContext
+    public class AccountContext : DbContext
     {
-        public ProjectWebDbContext() : base("ProjectWebDbContext")
+        public AccountContext() : base("AccountContext")
         {
         }
 

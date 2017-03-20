@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountContext.cs" />
+    <Compile Include="AccountInitializer.cs" />
     <Compile Include="BaseRepository.cs" />
     <Compile Include="ContextFactory.cs" />
     <Compile Include="ProjectWebDbContext.cs" />
