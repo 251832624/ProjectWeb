@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Test_MVC_XieModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Biz_MarketingInfo">
+          <Key>
+            <PropertyRef Name="Lsh" />
+          </Key>
+          <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Lsh" Type="bigint" Nullable="false" />
+          <Property Name="TaskID" Type="bigint" />
+          <Property Name="WFState" Type="int" />
+          <Property Name="WFNextUserList" Type="nvarchar" MaxLength="4000" />
+          <Property Name="FilesPKID" Type="bigint" />
+          <Property Name="CreateUserCode" Type="bigint" />
+          <Property Name="CreateUserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreateTime" Type="datetime" />
+          <Property Name="CreateDeptCode" Type="bigint" />
+          <Property Name="CreateDeptName" Type="nvarchar" MaxLength="200" />
+          <Property Name="BiddingCollectionLsh" Type="bigint" />
+          <Property Name="Xmmc" Type="nvarchar" MaxLength="200" />
+          <Property Name="Jsdw" Type="nvarchar" MaxLength="200" />
+          <Property Name="JsdwLxrdh" Type="nvarchar" MaxLength="100" />
+          <Property Name="Zbdl" Type="nvarchar" MaxLength="200" />
+          <Property Name="ZbdlLxrdh" Type="nvarchar" MaxLength="100" />
+          <Property Name="Bmsj" Type="datetime" />
+          <Property Name="Zzyq" Type="nvarchar" MaxLength="500" />
+          <Property Name="Kcdw" Type="nvarchar" MaxLength="500" />
+          <Property Name="Sjdw" Type="nvarchar" MaxLength="500" />
+          <Property Name="Wz" Type="nvarchar" MaxLength="200" />
+          <Property Name="Npzj" Type="nvarchar" MaxLength="50" />
+          <Property Name="XmjlName" Type="nvarchar" MaxLength="100" />
+          <Property Name="Remark" Type="nvarchar" MaxLength="1000" />
+          <Property Name="Gcdd" Type="nvarchar" MaxLength="200" />
+          <Property Name="SsbmCode" Type="bigint" />
+          <Property Name="SsbmName" Type="nvarchar" MaxLength="200" />
+          <Property Name="SsdwLsh" Type="bigint" />
+          <Property Name="SsdwName" Type="nvarchar" MaxLength="100" />
+          <Property Name="HzrID" Type="bigint" />
+          <Property Name="HzrName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityContainer Name="Test_MVC_XieModelStoreContainer">
+          <EntitySet Name="Biz_MarketingInfo" EntityType="Self.Biz_MarketingInfo" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Test_MVC_XieModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Biz_MarketingInfo">
+          <Key>
+            <PropertyRef Name="Lsh" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Lsh" Type="Int64" Nullable="false" />
+          <Property Name="TaskID" Type="Int64" />
+          <Property Name="WFState" Type="Int32" />
+          <Property Name="WFNextUserList" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+          <Property Name="FilesPKID" Type="Int64" />
+          <Property Name="CreateUserCode" Type="Int64" />
+          <Property Name="CreateUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="CreateTime" Type="DateTime" Precision="3" />
+          <Property Name="CreateDeptCode" Type="Int64" />
+          <Property Name="CreateDeptName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="BiddingCollectionLsh" Type="Int64" />
+          <Property Name="Xmmc" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Jsdw" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="JsdwLxrdh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Zbdl" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="ZbdlLxrdh" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Bmsj" Type="DateTime" Precision="3" />
+          <Property Name="Zzyq" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Kcdw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Sjdw" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+          <Property Name="Wz" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="Npzj" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="XmjlName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="Remark" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+          <Property Name="Gcdd" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="SsbmCode" Type="Int64" />
+          <Property Name="SsbmName" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="SsdwLsh" Type="Int64" />
+          <Property Name="SsdwName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="HzrID" Type="Int64" />
+          <Property Name="HzrName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityContainer Name="Test_MVC_XieEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Biz_MarketingInfo" EntityType="Self.Biz_MarketingInfo" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Test_MVC_XieModelStoreContainer" CdmEntityContainer="Test_MVC_XieEntities">
+          <EntitySetMapping Name="Biz_MarketingInfo">
+            <EntityTypeMapping TypeName="Test_MVC_XieModel.Biz_MarketingInfo">
+              <MappingFragment StoreEntitySet="Biz_MarketingInfo">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="Lsh" ColumnName="Lsh" />
+                <ScalarProperty Name="TaskID" ColumnName="TaskID" />
+                <ScalarProperty Name="WFState" ColumnName="WFState" />
+                <ScalarProperty Name="WFNextUserList" ColumnName="WFNextUserList" />
+                <ScalarProperty Name="FilesPKID" ColumnName="FilesPKID" />
+                <ScalarProperty Name="CreateUserCode" ColumnName="CreateUserCode" />
+                <ScalarProperty Name="CreateUserName" ColumnName="CreateUserName" />
+                <ScalarProperty Name="CreateTime" ColumnName="CreateTime" />
+                <ScalarProperty Name="CreateDeptCode" ColumnName="CreateDeptCode" />
+                <ScalarProperty Name="CreateDeptName" ColumnName="CreateDeptName" />
+                <ScalarProperty Name="BiddingCollectionLsh" ColumnName="BiddingCollectionLsh" />
+                <ScalarProperty Name="Xmmc" ColumnName="Xmmc" />
+                <ScalarProperty Name="Jsdw" ColumnName="Jsdw" />
+                <ScalarProperty Name="JsdwLxrdh" ColumnName="JsdwLxrdh" />
+                <ScalarProperty Name="Zbdl" ColumnName="Zbdl" />
+                <ScalarProperty Name="ZbdlLxrdh" ColumnName="ZbdlLxrdh" />
+                <ScalarProperty Name="Bmsj" ColumnName="Bmsj" />
+                <ScalarProperty Name="Zzyq" ColumnName="Zzyq" />
+                <ScalarProperty Name="Kcdw" ColumnName="Kcdw" />
+                <ScalarProperty Name="Sjdw" ColumnName="Sjdw" />
+                <ScalarProperty Name="Wz" ColumnName="Wz" />
+                <ScalarProperty Name="Npzj" ColumnName="Npzj" />
+                <ScalarProperty Name="XmjlName" ColumnName="XmjlName" />
+                <ScalarProperty Name="Remark" ColumnName="Remark" />
+                <ScalarProperty Name="Gcdd" ColumnName="Gcdd" />
+                <ScalarProperty Name="SsbmCode" ColumnName="SsbmCode" />
+                <ScalarProperty Name="SsbmName" ColumnName="SsbmName" />
+                <ScalarProperty Name="SsdwLsh" ColumnName="SsdwLsh" />
+                <ScalarProperty Name="SsdwName" ColumnName="SsdwName" />
+                <ScalarProperty Name="HzrID" ColumnName="HzrID" />
+                <ScalarProperty Name="HzrName" ColumnName="HzrName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
