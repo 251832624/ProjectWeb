@@ -13,6 +13,11 @@ namespace ProjectWeb.Web
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+            routes.MapRoute(
+                name: "account",
+                url: "account/{action}",
+                defaults: new { controller = "Account", action = "Index", id = UrlParameter.Optional }
+            );
 
 
             routes.MapRoute(
@@ -20,7 +25,6 @@ namespace ProjectWeb.Web
                 url: "p/{url}/{id}",
                 defaults: new { controller = "FormApi", action = "Page", id = UrlParameter.Optional }
             );
-
 
 
             routes.MapRoute(

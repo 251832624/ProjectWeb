@@ -12,6 +12,7 @@ namespace ProjectWeb.Web.Controllers
 
         // GET: Account
         //[HttpGet]
+        [HttpGet]
         public ActionResult Index()
         {
             //return View("~/Theme/Default/Index.cshtml");
