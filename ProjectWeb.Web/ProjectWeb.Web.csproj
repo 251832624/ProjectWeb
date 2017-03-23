@@ -2361,6 +2361,16 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectWeb.BLL\ProjectWeb.BLL.csproj">
+      <Project>{f030001c-dbee-487b-be39-c262c1027570}</Project>
+      <Name>ProjectWeb.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProjectWeb.Models\ProjectWeb.Models.csproj">
+      <Project>{5a21471b-2f48-4295-814d-4e3b6bf0a517}</Project>
+      <Name>ProjectWeb.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

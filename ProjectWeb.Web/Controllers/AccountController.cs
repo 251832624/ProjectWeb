@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using ProjectWeb.BLL;
+using ProjectWeb.Models;
 
 namespace ProjectWeb.Web.Controllers
 {
@@ -29,6 +31,12 @@ namespace ProjectWeb.Web.Controllers
         public ActionResult Login()
         {
             ViewBag.LoginState = "登录前。。。";
+
+
+            TestBLL bll = new TestBLL();
+            bll.TestMethod();
+
+
             return View();
         }
 
