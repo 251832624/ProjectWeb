@@ -26,6 +26,25 @@ namespace ProjectWeb.BLL
             sysUsers.ForEach(s => context.SysUsers.Add(s));
             context.SaveChanges();
 
+
+            //var vUser = from u in context.SysUsers
+            //            select u;
+
+            //vUser = context.SysUsers;
+
+            //vUser = from u in context.SysUsers
+            //        where u.UserName == "Tom"
+            //        select u;
+
+            //vUser = context.SysUsers.Where(u => u.UserName == "Tom");
+            
+        }
+
+
+        public List<SysUser> GetUser()
+        {
+            var vUsers = context.SysUsers;
+            return vUsers.ToList();
         }
 
     }

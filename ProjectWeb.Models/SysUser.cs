@@ -10,7 +10,7 @@ namespace ProjectWeb.Models
     public class SysUser
     {
         [Key]
-        public int ID { get; set; }
+        public Int64 ID { get; set; }
 
         [Required]
         [StringLength(50)]

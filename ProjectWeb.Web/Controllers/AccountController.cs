@@ -36,8 +36,9 @@ namespace ProjectWeb.Web.Controllers
             TestBLL bll = new TestBLL();
             bll.TestMethod();
 
+            List<SysUser> users = bll.GetUser();
 
-            return View();
+            return View(users);
         }
 
 
