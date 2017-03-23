@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using ProjectWeb.Models;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Data.Entity;
 
 namespace ProjectWeb.DAL
 {
