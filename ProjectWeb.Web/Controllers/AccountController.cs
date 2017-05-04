@@ -50,10 +50,10 @@ namespace ProjectWeb.Web.Controllers
 
             ViewBag.LoginState = LoginName + "登录后。。。";
 
-            Test_MVC_XieEntities entity = new Test_MVC_XieEntities();
-            Biz_MarketingInfo biz = new Biz_MarketingInfo { Xmmc = "某某某项目名称", Gcdd = "某项目地点" };
-            entity.Biz_MarketingInfo.Add(biz);
-            entity.SaveChanges();
+            //Test_MVC_XieEntities entity = new Test_MVC_XieEntities();
+            //Biz_MarketingInfo biz = new Biz_MarketingInfo { Lsh = Convert.ToInt64(DateTime.Now.Date.ToString("yyyyMMddHHmmssfff")), Xmmc = "某某某项目名称", Gcdd = "某项目地点" };
+            //entity.Biz_MarketingInfo.Add(biz);
+            //entity.SaveChanges();
 
             //DemoSiteEntities entity = new DemoSiteEntities();
 
