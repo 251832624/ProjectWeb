@@ -2,13 +2,31 @@
     ViewBag.Title = "Login";
 }
 
-<h2>Login</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>某某某业务管理系统</title>
+    <!-- Tell the browser to be responsive to screen width 告诉浏览器能够响应屏幕宽度 -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
+
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="~/assets/lib/adminLTE/bootstrap/css/bootstrap.min.css" />
+
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/assets/lib/adminLTE/dist/css/AdminLTE.min.css" />
+
+
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link href="~/assets/lib/adminLTE/dist/css/skins/_all-skins.min.css" rel="stylesheet" />
+
+</head>
 
 <body>
-    <div>
-        @ViewBag.LoginState
-    </div>
     <div>
         <form class="form-horizontal" action="~/account/login" method="post" role="form">
             <div class="form-group">
@@ -37,6 +55,6 @@
                     <button type="submit" class="btn btn-default">Sign in</button>
                 </div>
             </div>
-        </form>        
+        </form>
     </div>
 </body>
