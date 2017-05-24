@@ -31,14 +31,10 @@ namespace ProjectWeb.Web.Controllers
         public ActionResult Login()
         {
             ViewBag.LoginState = "登录前。。。";
-
-
-            TestBLL bll = new TestBLL();
-            bll.TestMethod();
-
-            List<SysUser> users = bll.GetUser();
-
-            return View(users);
+            //TestBLL bll = new TestBLL();
+            //bll.TestMethod();
+            //List<SysUser> users = bll.GetUser();
+            return View();
         }
 
 
@@ -57,7 +53,8 @@ namespace ProjectWeb.Web.Controllers
 
             //DemoSiteEntities entity = new DemoSiteEntities();
 
-            return this.Json(new { rdata = "~/home", success = true });
+            return View("~/Views/home/Index.cshtml");
+            //return this.Json(new { rdata = "~/home", success = true });
             //return View("~/Views/Account/Index.cshtml");
             //return View("~/Views/Account/Index.cshtml");
         }
